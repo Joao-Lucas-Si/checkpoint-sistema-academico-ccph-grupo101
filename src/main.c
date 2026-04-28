@@ -38,6 +38,10 @@ int main() {
         notas += 1 ; 
          
         break;
+        case 2: 
+        float media = calcularMedia(total, notas);
+        printf("Sua média é: %f", media);
+        break;
         
         default:
             break;
