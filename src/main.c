@@ -21,6 +21,19 @@ float inserir ( ){
     return nota; 
 } 
 
+void verificarSituacao(float total,int nota) {
+
+    float media = calcularMedia (total, nota);
+
+    if (media >= 6){
+     return"aprovado";
+     
+    }
+    else {
+        return"reprovado";
+    }
+}
+
 int main() {
     mostrarDelimitadores();
     printf("   SISTEMA EQUIPE 101   \n");
