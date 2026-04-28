@@ -21,7 +21,7 @@ float inserir ( ){
     return nota; 
 } 
 
-void verificarSituacao(float total,int nota) {
+char* verificarSituacao(float total,int nota) {
 
     float media = calcularMedia (total, nota);
 
@@ -62,12 +62,17 @@ int main() {
         case 1 :
         total += inserir ();
         notas += 1 ; 
-         
-        break;
+         break;
+
         case 2: 
         float media = calcularMedia(total, notas);
         printf("Sua media e: %f\n", media);
         break;
+        
+        case 3 :
+        char* aprovacao = verificarSituacao(total, notas );
+        printf("sua situacao e:%s\n", aprovacao); 
+
         
         default:
             break;
