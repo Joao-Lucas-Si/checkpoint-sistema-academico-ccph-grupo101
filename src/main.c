@@ -43,7 +43,7 @@ void derivada()
     float A, B, C;
     printf("Insira A: ");
     scanf("%f", &A);
-    A = A * 2;
+   
     printf("Insira B: ");
     scanf("%f", &B);
     printf("Insira C: ");
