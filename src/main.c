@@ -8,6 +8,19 @@ void mostrarDelimitadores() {
     printf("\n");
 }
 
+float calcularMedia(float total,int nota){
+    float calculo=total/nota;
+    return calculo;
+
+}
+float inserir ( ){
+    float nota ;
+    printf("insira nota ");
+    scanf( "%f", &nota);
+    
+    return nota; 
+} 
+
 int main() {
     mostrarDelimitadores();
     printf("   SISTEMA EQUIPE 101   \n");
@@ -21,16 +34,16 @@ int main() {
 
     while (opcao != 6)
     {
-        printf("1 - Inserir notas");
-        printf("2 - Calcular media");
-        printf("3 - Verificar situacao");
-        printf("4 - Exibir resultado");
-        printf("5 - Calcular derivada");
-        printf("6 - Sair");
+        printf("1 - Inserir notas\n");
+        printf("2 - Calcular media\n");
+        printf("3 - Verificar situacao\n");
+        printf("4 - Exibir resultado\n");
+        printf("5 - Calcular derivada\n");
+        printf("6 - Sair\n");
 
-        printf("ESCOLHA UMA OPÇÃO");
+        printf("ESCOLHA UMA OPCAO");
         scanf("%d", &opcao);
-
+        printf("\n");
         switch (opcao) 
         {
         case 1 :
@@ -40,7 +53,7 @@ int main() {
         break;
         case 2: 
         float media = calcularMedia(total, notas);
-        printf("Sua média é: %f", media);
+        printf("Sua media e: %f\n", media);
         break;
         
         default:
@@ -53,18 +66,3 @@ int main() {
     
     return 0;
 }
-float calcularMedia(float total,int nota){
-    float calculo=total/nota;
-    return calculo;
-
-}
-float inserir ( ){
-    float nota ;
-    printf("insira nota ");
-    scanf( "%f", &nota);
-    return nota; 
-
-
-
-
-} 
