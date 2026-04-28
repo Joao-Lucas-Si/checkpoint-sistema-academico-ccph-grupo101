@@ -47,6 +47,8 @@ int main() {
 
     while (opcao != 6)
     {
+         float media = calcularMedia(total, notas);
+         char* aprovacao = verificarSituacao(total, notas );
         printf("1 - Inserir notas\n");
         printf("2 - Calcular media\n");
         printf("3 - Verificar situacao\n");
@@ -65,15 +67,20 @@ int main() {
          break;
 
         case 2: 
-        float media = calcularMedia(total, notas);
+       
         printf("Sua media e: %f\n", media);
         break;
         
         case 3 :
-        char* aprovacao = verificarSituacao(total, notas );
+        
         printf("sua situacao e:%s\n", aprovacao); 
 
-        
+        case 4:
+        printf("O resultado e:\n");
+        printf("Media: %.2f \n", media);
+        printf("Aprovacao: %s \n", aprovacao);
+        printf("Notas inseridas: %d \n", notas);
+        break;
         default:
             break;
         }
