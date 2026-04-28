@@ -41,7 +41,9 @@ void derivada(){
     scanf("%f", &B);
     printf("Insira C: ");
     scanf("%f", &C);
+    printf("f(x) = %.2fx² + %.2fx + %.2f", A, B, C);
 }
+
 int main() {
     mostrarDelimitadores();
     printf("   SISTEMA EQUIPE 101   \n");
@@ -76,7 +78,7 @@ int main() {
 
         case 2: 
        
-        printf("Sua media e: %f\n", media);
+        printf("Sua media e: %.2f\n", media);
         break;
         
         case 3 :
