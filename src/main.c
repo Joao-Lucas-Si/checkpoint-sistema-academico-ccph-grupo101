@@ -49,7 +49,11 @@ int main() {
     
     return 0;
 }
+float calcularMedia(float total,int nota){
+    float calculo=total/nota;
+    return calculo;
 
+}
 float inserir ( ){
     float nota ;
     printf("insira nota ");
