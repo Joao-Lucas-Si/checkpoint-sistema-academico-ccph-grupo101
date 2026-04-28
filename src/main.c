@@ -16,7 +16,7 @@ float calcularMedia(float total,int nota){
 float inserir ( ){
     float nota ;
     printf("insira nota ");
-    scanf( "%f", &nota);
+    scanf("%f", &nota);
     
     return nota; 
 } 
@@ -33,7 +33,15 @@ char* verificarSituacao(float total,int nota) {
         return"reprovado";
     }
 }
-
+void derivada(){
+    float A, B, C;
+    printf("Insira A: ");
+    scanf("%f", &A);
+    printf("Insira B: ");
+    scanf("%f", &B);
+    printf("Insira C: ");
+    scanf("%f", &C);
+}
 int main() {
     mostrarDelimitadores();
     printf("   SISTEMA EQUIPE 101   \n");
@@ -74,12 +82,17 @@ int main() {
         case 3 :
         
         printf("sua situacao e:%s\n", aprovacao); 
+        break;
 
         case 4:
         printf("O resultado e:\n");
         printf("Media: %.2f \n", media);
         printf("Aprovacao: %s \n", aprovacao);
         printf("Notas inseridas: %d \n", notas);
+        break;
+
+        case 5:
+        derivada();
         break;
         default:
             break;
