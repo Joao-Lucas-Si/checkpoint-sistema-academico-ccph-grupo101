@@ -13,7 +13,9 @@ int main() {
     printf("   SISTEMA EQUIPE 101   \n");
     mostrarDelimitadores();
     
-    float nota1, nota2, nota3, nota4;
+    float total = 0 ;
+    int notas = 0;
+
 
     int opcao = 0;
 
@@ -31,7 +33,11 @@ int main() {
 
         switch (opcao) 
         {
-        
+        case 1 :
+        total += inserir ();
+        notas += 1 ; 
+         
+        break;
         
         default:
             break;
@@ -43,3 +49,14 @@ int main() {
     
     return 0;
 }
+
+float inserir ( ){
+    float nota ;
+    printf("insira nota ");
+    scanf( "%f", &nota);
+    return nota; 
+
+
+
+
+} 
