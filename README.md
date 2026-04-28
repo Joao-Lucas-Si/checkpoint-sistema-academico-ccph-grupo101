@@ -1,3 +1,12 @@
+#Integrantes
+João Lucas Silva Lopes - RM573875
+Gabriel de Paula Santos - RM573195
+Enzo Ribeiro - RM569429
+Alan Otalvaro -RM 571794
+joao pedro ribeiro santos - rm 570562
+
+
+
 # Checkpoint - Sistema Acadêmico em C
 
 ## Modalidade
@@ -14,3 +23,4 @@ Grupo de 5 integrantes
 ## Estrutura
 - `src/codigo_com_erros.c` → arquivo com erros para correção
 - `src/main.c` → arquivo principal do sistema
+
