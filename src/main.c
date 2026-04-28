@@ -15,9 +15,9 @@ int main() {
     
     float nota1, nota2, nota3, nota4;
 
-    int sair = 0;
+    int opcao = 0;
 
-    while (sair != 1)
+    while (opcao != 6)
     {
         printf("1 - Inserir notas");
         printf("2 - Calcular media");
@@ -25,6 +25,18 @@ int main() {
         printf("4 - Exibir resultado");
         printf("5 - Calcular derivada");
         printf("6 - Sair");
+
+        printf("ESCOLHA UMA OPÇÃO");
+        scanf("%d", &opcao);
+
+        switch (opcao) 
+        {
+        
+        
+        default:
+            break;
+        }
+
     }
     
 
