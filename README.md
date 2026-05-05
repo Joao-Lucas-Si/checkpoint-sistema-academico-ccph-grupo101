@@ -1,9 +1,13 @@
 # Integrantes
 
 João Lucas Silva Lopes - RM573875
+
 Gabriel de Paula Santos - RM573195
+
 Enzo Ribeiro - RM569429
+
 Alan Otalvaro -RM 571794
+
 joao pedro ribeiro santos - rm 570562
 
 
